@@ -1,0 +1,10 @@
+.△ {
+	width: var(--a, 90vmin); /* edge length */
+	/* △ edge length/ △ height */
+	aspect-ratio: 1/ sin(60deg);
+	background: url(https://images.unsplash.com/photo-1603739355965-e4106f83fe64?w=1400) 0 0/ cover;
+	clip-path: 
+		polygon(50% 0 /* top vertex */, 
+						0 100% /* bottom left */, 
+						100% 100% /* bottom right */)
+}
